@@ -139,8 +139,8 @@ function wpfud_insert_familia( $args = array() ) {
 
 /** SHORTCODE FRONT-END FORM **/
 function add_form( $attrs ) {
-	if(include('/views/familia-new.php'))
-	return'';
+    include 'views/familia-new.php';
+    return $view;
 }
 
 add_shortcode('wpfud','add_form');
