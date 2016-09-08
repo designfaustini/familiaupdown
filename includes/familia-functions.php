@@ -138,8 +138,9 @@ function wpfud_insert_familia( $args = array() ) {
 }
 
 /** SHORTCODE FRONT-END FORM **/
-function add_form() {
-	return'<strong>Aqui vem o código do formulário.</strong>';
+function add_form( $attrs ) {
+	if(include('/views/familia-new.php'))
+	return'';
 }
 
 add_shortcode('wpfud','add_form');
