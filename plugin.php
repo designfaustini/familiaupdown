@@ -4,8 +4,7 @@ Plugin Name: Família Up Down
 Plugin URI: http://familiaupdown.org/
 Description: Sistema CRUD para cadastro de famílias do site http://familiaupdown.org/
 Author: DESIGNFAUSTINI
-Text Domain: Text Domain
-Domain Path: Domain Path
+Text Domain: designfaustini
 Version: 1.0
 Author URI: http://designfaustini.com/
 License: GPL2
